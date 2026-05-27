@@ -1,0 +1,9 @@
+# https://atproto.com/specs/oauth#localhost-client-development
+app:
+  atproto:
+    client-id: http://localhost?redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2Foauth%2Fcallback
+    redirect-uri: http://127.0.0.1:8080/oauth/callback
+
+  auth:
+    cookie:
+      secure: false

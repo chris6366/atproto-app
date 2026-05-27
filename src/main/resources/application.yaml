@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: atproto-app
+
+# https://atproto.com/specs/oauth#client-id-metadata-document
+app:
+  atproto:
+    client-id: https://atproto-app-production.up.railway.app/oauth-client-metadata.json
+    client-name: ATProto App
+    redirect-uri: https://atproto-app-production.up.railway.app/oauth/callback
+    application-type: native
+
+  auth:
+    cookie:
+      secure: true
