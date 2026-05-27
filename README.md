@@ -2,9 +2,13 @@
 
 Basic demonstration of AT Protocol using Spring Boot.
 
-## Run
+## Local
 
-Run the app, go to http://localhost:8080/ and try logging in.
+Run the app with `local` profile, go to http://localhost:8080/ and try logging in.
+
+## Live
+
+https://atproto-app-production.up.railway.app/
 
 ## Links
 
